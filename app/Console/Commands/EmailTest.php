@@ -21,7 +21,7 @@ class EmailTest extends Command
         $eventHandler = app(App\Notifications\NotificationEventsHandler::class);
 
         $news = new App\Models\News();
-        $news->user_id = 1;
+        $news->user_id = 187;
         $news->subject = 'Test News';
         $news->body = 'Test Body';
         $news->save();
